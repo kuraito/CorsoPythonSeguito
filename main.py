@@ -6,7 +6,7 @@ print(messaggio) #esce l input
 
 #-----------------------------------------------------
 
-#----- 02 VARIABILI
+#----- 02 VARIABILI --------------------------------------
 
 x = 5 #assegno valore alla variabile
 y = 6
@@ -21,7 +21,7 @@ citta = ["roma", "milano", "napoli"] #una collection
 x1, y1, z1 = citta #prende ognuno un valore della lista
 #----------------------------------------------------------------
 
-#----- 03 tipi di dati
+#----- 03 TIPI DI DATI ----------------------------------
 
 #NON E' NECESSARIO SPECIFICARE IL TIPO DI DATO
 #in python abbiamo str, int, float, bool, list, range ecc...
@@ -34,7 +34,7 @@ print(type(x2)) #stampiamo la FUNZIONE per stampare il tipo della variabile x
 
 #-------------------------------------------------------------------
 
-#--------04 casting
+#--------04 CASTING -----------------------------------------------
 
 #si prende un numero e si converte in una stringa e viceversa
 
@@ -47,7 +47,7 @@ y3 = str(5) #per fare il casting a stringa s
 
 #------------------------------------------------------------------
 
-#---------05 Stinghe
+#---------05 STRINGHE --------------------------------------------
 
 x4 = "ciao" #è una stringa
 y4 = 'ciao' #è una stringa, l'importante è solo non mischiare
@@ -84,7 +84,8 @@ prova3 = 'sono alla ricerca dell\'amore' #ESCAPE dei caratteri (VEDERE DOCUMENTA
 
 #-----------------------------------------------------------------------------
 
-#-------06 BOOLEAN 
+#-------06 BOOLEAN ------------------------------------------------------------
+
 x6 = True
 y6 = False #valori booleani
 
@@ -124,7 +125,8 @@ y8 = abs(-5) #da il valore assoluto
 
 #----------------------------------------------------------------------------
 
-#-------08 CONDIZIONI
+#-------08 CONDIZIONI --------------------------------------------------------
+
 if x8 < 10:
     print("x è minore di 10") #nell if
     print("miao") #nell if
@@ -149,9 +151,11 @@ if x8 % 2 == 0:
         print("numero pari e minore di 10")
 else:
     print("numero dispari")
+    
 #------------------------------------------------------------------
 
-#-----------09 WHILE
+#-----------09 WHILE ---------------------------------------------
+
 x9 = ["milano", "roma", "napoli"]
 y9 = "ciao"
 
@@ -176,7 +180,8 @@ else: #teniamo traccia della fine eventualmente
 
 #----------------------------------------------------------------------------
 
-#---------10 FOR
+#---------10 FOR ------------------------------------------------------------
+
 lista_citta = ["milano", "roma", "napoli"]
 
 for citta in lista_citta: #per ogni elemento in lista elementi fai quanto segue
@@ -201,10 +206,10 @@ for riga in range(6):
         print("(" + str(riga) + ":" + str(colonna)+ ")")
 else:
     print("ho finito")
+    
 #--------------------------------------------------------------
 
 #--------12 COLLEZIONI
-
 # liste, tuple, set e dizionari
 # abbiamo 3 parentesi diverse, le liste, tuple, set ecc hanno proprietà diverse
 
@@ -219,7 +224,6 @@ else:
 #i DICTIONARY sono ORDINATE, MODIFICABILI E NON DUPLICABILI.
 
 #---------- 12.1 LISTE---------------------------------------------
-
 x10 = ["milano", "roma", "napoli"]
 y10 = ["ciao", 1000, False] #permette di avere elementi mischiati
 z10 = list(("milano", "roma", 100)) #si può fare anche con il costruttore list
@@ -365,7 +369,6 @@ z13 = x12.intersection(y14) #CREA  UN NUOVO SET CON GLI ELEMENTI IN COMUNE
 #SIMMETRIC DIFFERENCE e SYMMETRIC DIFFERENCE UPDATE TIENE TUTTO TRANNE GLI ELEMENTI IN COMUNE
 
 #------------12.4 DICTIONARY
-
 #modificabili ma non permettono duplicati
 
 #devono avere chiavi e valore come oggetti in javaScript
@@ -485,6 +488,7 @@ if is_pasta_pronta:
 #--------------------------------------------------------------------------------------------------
 
 #----------14 CLASSI E OGGETTI --------------------------------------------------
+
 #si usano oggetti ed entita del mondo reale
 
 #creare classe
@@ -528,7 +532,8 @@ pers1.saluta()
 
 #--------------------------------------------------------------------------------------
 
-#--------15 EREDITARIETA' -------------------------------------------------------
+#--------15 EREDITARIETA' -------------------------------------------------------------
+
 #l'ereditarietà riguarda cosa una classe eredità da altre classi in più anche eventualmente cose aggiuntive
 class Persona_vivente:
     def __init__(self, nome, cognome):
@@ -562,6 +567,7 @@ insegn1.saluta() #saluta come fa la sottoclasse insegnante e non come persona vi
 #--------------------------------------------------------------------------------------------------------
 
 #---- 16 SCOPE -------------------------------------------------------------------------------------------
+
 #può essere locale o globale
 #locale solo nella funzione
 
@@ -582,6 +588,7 @@ variabileglobale = funzione() #cosi, le variabili fuori dalle funzioni hanno sco
 #----------------------------------------------------------------------------------------------------------
 
 #-------- 17 MODULI --------------------------------------------------------------------------------------
+
 # come se fosse una libreria file con insieme di funzione che vogliamo integrare nel programma
 
 #pepr includere il modulo
