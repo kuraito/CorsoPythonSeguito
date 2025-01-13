@@ -1,7 +1,7 @@
 #----01 SINTASSI
 
-messaggio = input("inserisci il nome: ") #input dell utente
-print(messaggio) #esce l input
+messaggio = input("inserisci il nome: ") #input utente
+print(messaggio)
 #l'indentazione in python è molto importante
 
 #-----------------------------------------------------
@@ -10,13 +10,12 @@ print(messaggio) #esce l input
 
 x = 5 #assegno valore alla variabile
 y = 6
-#y solamente non si può dichiarare e basta deve per forza avere un valore
+#y solamente non si può solo dichiarare, deve essere assegnata ad un valore
 #python è case sensitive quindi x e X non sono la stessa cosa
 z, w, u = 32, 60, 50 #diamo 3 valori diversi a 3 variabili
 e = f = g = 32 #hanno tutte e 3 lo stesso valore
 
 #posso fare ovviamente le operazioni con le variabili
-
 citta = ["roma", "milano", "napoli"] #una collection
 x1, y1, z1 = citta #prende ognuno un valore della lista
 #----------------------------------------------------------------
